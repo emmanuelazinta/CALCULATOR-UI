@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css\index.css">
+</head>
+<body>
+    <div class="container-fluid background">
+        <div class="row all">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 section">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section log">
+                   
+                    <div>
+                    <form>
+                        <input type="text" id="ndinput">
+                        <input type="text" id="input" >
+
+                    </form>
+                    <div class="number">
+                        <button onclick="one()">.</button>
+                        <button onclick="cleartxt()">CE</button>
+                        <button id="clear" onclick="cleartxt()">C</button>
+                        <button onclick="equall()">=</button><br><br>
+                        <button onclick="one(this)">7</button>
+                        <button onclick="one(this)">8</button>
+                        <button onclick="one(this)">9</button>
+                        <button id="minus" onclick="minuss()">-</button><br><br>
+                        <button onclick="one(this)">4</button>
+                        <button onclick="one(this)">5</button>
+                        <button onclick="one(this)">6</button>
+                        <button onclick="pluss()">+</button><br><br>
+                        <button  onclick="one(this)">1</button>
+                        <button onclick="one(this)">2</button>
+                        <button onclick="one(this)">3</button>
+                        <button onclick="one(this)">0</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script/main.js"></script>
+</body>
+</html>
